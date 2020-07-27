@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:600,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="calculator" class="bg-white">
+        <div id="result">
+          <div id="history">
+            <p id="history-value"></p>
+          </div>
+          <div id="output">
+            <p id="output-value"></p>
+          </div>
+        </div>
+        <div id="keyboard">
+          <button class="operator bg-primary" id="clear">C</button>
+          <button class="operator bg-primary" id="backspace">CE</button>
+          <button class="operator bg-warning" id="%">%</button>
+          <button class="operator bg-warning" id="/">&#247;</button>
+          <button class="number bg-light" id="7">7</button>
+          <button class="number bg-light" id="8">8</button>
+          <button class="number bg-light" id="9">9</button>
+          <button class="operator bg-warning" id="*">&times;</button>
+          <button class="number bg-light" id="4">4</button>
+          <button class="number bg-light" id="5">5</button>
+          <button class="number bg-light" id="6">6</button>
+          <button class="operator bg-warning" id="-">-</button>
+          <button class="number bg-light" id="1">1</button>
+          <button class="number bg-light" id="2">2</button>
+          <button class="number bg-light" id="3">3</button>
+          <button class="operator bg-warning" id="+">+</button>
+          <button class="empty bg-white" id="empty"></button>
+          <button class="number bg-light" id="0">0</button>
+          <button class="empty bg-white" id="empty"></button>
+          <button class="operator bg-warning" id="=">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
